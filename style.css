@@ -1,7 +1,17 @@
+:root {
+  --darkblue: hsl(219, 62%, 35%);
+}
+
 body::before {
   display: block;
   content: '';
   height: 60px;
+}
+
+.news,
+.middle,
+.fotographs {
+  background-color: var(--darkblue);
 }
 
 @media (min-width: 768px) {

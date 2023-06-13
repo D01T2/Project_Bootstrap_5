@@ -29,15 +29,92 @@
             <a href="galerie.html" class="nav-link">Galerie</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Kontakt</a>
+            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#enroll">Kontakt</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
+  <section class="mt-5">
+    <h1 class="text-center">Wellcome to our Gallery</h1>
+    <p class="lead m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate cumque, voluptatum perspiciatis recusandae molestiae aspernatur alias. Sed, modi harum omnis ad laborum debitis molestiae? Voluptas veniam velit quibusdam molestiae?</p>
+    <!--main content of gallery-->
 
+    <div class="row mt-5 mx-3">
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        
+        <img
+          src="images/Beautiful_Sky.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="beautiful night sky"
+        >
+        <img
+          src="images/wallpaper (4).jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="a leaf in the river"
+        >
+        <img
+          src="images/leopard.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="beautiful leopard"
+        >
+        <img
+          src="images/wallpaper (7).jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="a persone in the middle of an frozen feald"
+        >
+      </div>
 
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <img
+          src="images/benz.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="front picture of C-class AMG "
+        >
+        <img
+          src="images/bufnita.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="An Owl looking on at me"
+        >
+        <img
+          src="images/wallpaper (3).jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="audi front light"
+        >
+        <img
+          src="images/bufnita.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="An Owl looking on at me"
+        >
+        
+      </div>
+
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <img
+          src="images/leopard.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="beautiful leopard"
+        >
+        <img
+          src="images/wallpaper (5).jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="fallen leafs on the pathway in the park"
+        >
+        
+        <img
+          src="images/Beautiful_Sky.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="beautiful night on the cost"
+        >
+        <img
+          src="images/benz.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="C-class AMG front light"
+        >
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   
@@ -49,6 +126,52 @@
     </ul>
     <p class="text-center text-body-secondary">© 2023 Me & mE</p>
   </footer>
+
+  <!-- Pop-up Kontakt formular-->
+  <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h5 class="modal-title" id="enrollLabel">Kontaktieren Sie uns</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body">
+          <p class="lead">Füllen Sie dieses Formular aus und wir werden uns gerne mit Ihnen in Verbindung setzen.</p>
+  
+          <form>
+            <div class="mb-3">
+              <label for="first-name" class="col-form-label">
+                Vorname:
+              </label>
+              <input type="text" class="form-control" id="first-name" />
+            </div>
+  
+            <div class="mb-3">
+              <label for="last-name" class="col-form-label">Nachname:</label>
+              <input type="text" class="form-control" id="last-name" />
+            </div>
+  
+            <div class="mb-3">
+              <label for="email" class="col-form-label">E-mail:</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+  
+            <div class="mb-3">
+              <label for="phone" class="col-form-label">Telefon:</label>
+              <input type="tel" class="form-control" id="phone" />
+            </div>
+          </form>
+        </div>
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
