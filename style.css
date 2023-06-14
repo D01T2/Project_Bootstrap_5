@@ -1,6 +1,5 @@
 :root {
   --darkblue: hsl(219, 62%, 35%);
-  /* --darkgrey: hsl(210, 11%, 15%); asta ne uitam diseara peste ea cum sa facem colturile la poza sa dispara.*/
 }
 
 body::before {
